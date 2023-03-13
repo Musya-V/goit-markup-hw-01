@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!--Page header-->
     <header>
       <nav>
-        <a href="./index.html"> WebStudio </a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a href="./index.html" class="logo"> WebStudio </a>
+
+        <ul class="site-nav list">
+          <li><a href="" class="link-current">Studio</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="" class="link">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="auth-nav list">
           <li>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -31,38 +40,39 @@
 
     <main>
       <!--Section 1-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="button primery">Order Service</button>
       </section>
 
       <!--Section 2-->
-      <section>
-        <h2>advantages</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">advantages</h2>
+
+        <ul class="section list">
           <li>
-            <h3>Strategy</h3>
+            <h3 class="title">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
+              perfect a nd creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="title">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="title">Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
+            <h3 class="title">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -72,9 +82,9 @@
       </section>
 
       <!--Section 3-->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">What are we doing</h2>
+        <ul class="work list">
           <li>
             <img
               src="./images/desctop.jpg"
@@ -103,16 +113,16 @@
       </section>
 
       <!--Section 4-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
+      <section class="section-team">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="team list">
           <li>
             <img
               src="./images/our-team/team-card-1.jpg"
               alt="Photo our product designer"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
+            <h3 class="title">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
 
@@ -123,7 +133,7 @@
               width="264"
             />
 
-            <h3>Tom Ford</h3>
+            <h3 class="title">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
 
@@ -134,7 +144,7 @@
               width="264"
             />
 
-            <h3>Camila Garcia</h3>
+            <h3 class="title">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
 
@@ -145,7 +155,7 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
+            <h3 class="title">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
