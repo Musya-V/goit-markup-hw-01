@@ -65,7 +65,7 @@ body {
   text-decoration: none;
 }
 
-.auth-nav list {
+.auth-nav-list {
   text-decoration: none;
 }
 
@@ -115,6 +115,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  cursor: pointer;
 }
 .button.primery {
   color: var(--primery-white-color);
