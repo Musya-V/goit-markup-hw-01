@@ -30,15 +30,16 @@ body {
 
 .list {
   list-style-type: none;
+  color: var(--title-text-colour);
 }
 
-.logo {
-  color: var(--title-text-colour);
+.logo .link {
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
 
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
